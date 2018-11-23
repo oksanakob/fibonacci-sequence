@@ -1,3 +1,5 @@
+alert("First method")
+
 const n = parseInt(prompt ("Enter your number:"));
 
 //first method
