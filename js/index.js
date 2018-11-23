@@ -11,15 +11,17 @@ function fib(n) {
   }
   return b;
 }
+alert(fib(n));
 
+alert("Second method") 
 
-/* second method
+const f = parseInt(prompt ("Enter your number:"));
 
-function fib(n) {
-  if (n < 2){
+function fib(f) {
+  if (f < 2){
     return n;
   }
-  return fib(n - 1) + fib(n - 2);
-}*/
+  return fib(f - 1) + fib(f - 2);
+}
 
-alert(fib(n));
+alert(fib(f));
